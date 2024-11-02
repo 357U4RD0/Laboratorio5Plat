@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab5angemerida"
+    namespace = "com.example.Laboratorio5_6"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lab5angemerida"
+        applicationId = "com.example.Laboratorio5_6"
         minSdk = 31
         targetSdk = 34
         versionCode = 1
@@ -52,6 +52,8 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+    implementation ("androidx.compose.material3:material3:1.3.0")
+    implementation ("androidx.navigation:navigation-compose:2.5.3")
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))

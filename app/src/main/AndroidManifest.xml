@@ -7,39 +7,43 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Lab5AngeMerida"
+        android:label="Lab5-6"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab5AngeMerida"
         tools:targetApi="31">
+
         <activity
             android:name=".ConcertInfoActivity"
             android:exported="false"
-            android:label="ConcertInfoActivity"
+            android:label="Información de Conciertos"
             android:theme="@style/Theme.Lab5AngeMerida" />
+
         <activity
             android:name=".PlacesListActivity"
             android:exported="false"
-            android:label="PlacesListActivity"
+            android:label="Lista de Lugares"
             android:theme="@style/Theme.Lab5AngeMerida" />
+
         <activity
             android:name=".ProfileActivity"
             android:exported="false"
-            android:label="ProfileActivity"
+            android:label="Perfil"
             android:theme="@style/Theme.Lab5AngeMerida" />
+
         <activity
             android:name=".EventDetailActivity"
             android:exported="false"
-            android:label="EventDetailActivity"
+            android:label="Detalles del Evento"
             android:theme="@style/Theme.Lab5AngeMerida" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Lab5AngeMerida"
+            android:label="Inicio"
             android:theme="@style/Theme.Lab5AngeMerida">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
